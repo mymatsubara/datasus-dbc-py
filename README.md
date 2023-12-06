@@ -1,5 +1,7 @@
 # datasus-dbc-py
 
+[![PyPI version](https://badge.fury.io/py/datasus-dbc.svg)](https://pypi.org/project/datasus-dbc/)
+
 Decompress `*.dbc` files usually found in Brazil's DATASUS ftp server into `*.dbf` files in python.
 
 This are python bindings of the sibling library [datasus-dbc](https://crates.io/crates/datasus-dbc) which is written in rust. This library should be **compatible with most platforms**.
