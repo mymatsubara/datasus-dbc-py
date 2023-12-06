@@ -1,0 +1,13 @@
+[package]
+name = "datasus-dbc-py"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+name = "datasus_dbc"
+crate-type = ["cdylib"]
+
+[dependencies]
+datasus-dbc = "0.1.1"
+pyo3 = "0.19.0"
