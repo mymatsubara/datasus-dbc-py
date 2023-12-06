@@ -4,6 +4,12 @@ Decompress `*.dbc` files usually found in Brazil's DATASUS ftp server into `*.db
 
 This are python bindings of the sibling library [datasus-dbc](https://crates.io/crates/datasus-dbc) which is written in rust. This library should be **compatible with most platforms**.
 
+## Instalation
+
+```
+pip install datasus-dbc
+```
+
 ## Examples
 
 To decompress a `*.dbc` file into a `*.dbf` use `decompress` function:
